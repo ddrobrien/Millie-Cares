@@ -47,21 +47,3 @@ h1, h3, h4 {
 .active {
     border-bottom: 1px solid #252525;
 }
-
-/*main image */
-
-#dog-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-#cover-text, #cover-text h2 {
-    color: #fff;
-}
-#main-image {
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
-    background: url(../images/anthony-duran-XFLY0Yp3Gow-unsplash.jpg);
-}
