@@ -7,7 +7,7 @@
 }
 body {
     font-family: roboto, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #233d4d;
 }
 
@@ -16,20 +16,20 @@ body {
 h1, h3, h4 {
     font-family: montserrat, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     color: #252525;
 }
 
 #title {
     float: left;
-    font-size: 300%;
-    margin-left: 30px;
+    font-size: 200%;
+    margin-left: 20px;
 }
 /* navigation links */
 
 #menu-links {
-    font-size: 110%;
-    letter-spacing: 3px;
+    font-size: 100%;
+    letter-spacing: 6px;
     float: right;
 }
 
@@ -50,3 +50,18 @@ h1, h3, h4 {
 
 /*main image */
 
+#dog-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+#main-image {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    background: url(../images/anthony-duran-XFLY0Yp3Gow-unsplash.jpg);
+}
