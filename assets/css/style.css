@@ -52,13 +52,27 @@ border-bottom: 10px;
 #club-benefits {
     border-top: 10px;
 }
-#text-left {
-    padding-top: 33%;
-    width: 33%;
-    float: left;
+h3 {
+    text-align: center;
 }
-#text-right {
-    padding-top: 33%;
+.text-left {
+    float: left;
     width: 33%;
+    padding-top: 30px;
+}
+.text-right {
     float: right;
+    width: 33%;
+    padding-top: 33px;
+}
+
+/* activities */
+
+#activites {
+    height: 600px;
+}
+
+.activites li {
+    text-align: center;
+    border-top: 10px;
 }
