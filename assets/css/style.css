@@ -12,6 +12,10 @@ h1 {
     background-color: #619b8a;
 }
 
+hr {
+    display: none;
+}
+
 /* navigation links */
 
 #menu-links {
@@ -22,6 +26,7 @@ h1 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    border-bottom: 20px;
 }
 #menu-links a {
     text-decoration: none;
@@ -30,7 +35,7 @@ h1 {
     border-left: 2px solid #a50104;
 }
 .active {
-    border-bottom: 1px solid #a50104;
+    border-top: 10px solid #a50104;
 }
 
 /* image */
@@ -40,7 +45,7 @@ img {
     max-width: 100%;
 }
 #image {
-    padding: 10;
+    padding: 30;
 border-top: 50px;
 border-left: 50px;
 border-right: 10px;
@@ -71,15 +76,17 @@ h3 {
 /* activities */
 
 #activities {
-    height: 300px;
+    height: 280px;
     display: center;
     padding-left: 40%;
-    margin-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     font-size: 20px;
+    background-color: #fcba04;
 }
 
 #opening-times {
-    height: 200px;
+    height: 180px;
     display: center;
     padding-left: 40%;
     font-size: 20px;
@@ -96,12 +103,33 @@ h4 {
     font-family: roboto, sans-serif;
     height: 600px;
     display: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
     padding-left: 40%;
     font-size: 20px;
-    margin-bottom: 5%;
+    background-color: #fcba04;
 }
 #location h3 {
     font-family: montserrat, sans-serif;
     font-size: 20px;
-    margin-bottom: auto;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+    background-color: #619b8a;
+}
+.social-links {
+    text-align: center;
+    background-color: #619b8a;
+}
+.social-links > li {
+    display: inline;
+}
+.social-links i {
+    font-size: 80px;
+    margin: 1%;
+    padding: 5%;
+    color: #a50104;
 }
