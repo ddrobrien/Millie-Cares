@@ -1,49 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
 body {
     font-family: roboto, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color: #233d4d;
-}
-
-/* headings and logo */
-
-h1, h3, h4 {
-    font-family: montserrat, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #252525;
-}
-
-#title {
-    float: left;
-    font-size: 200%;
-    margin-left: 20px;
-}
-/* navigation links */
-
-#menu-links {
-    font-size: 100%;
-    letter-spacing: 6px;
-    float: right;
-}
-
-#title #menu-links {
-    line-height: 75px;
-}
-
-#menu-links a {
-    text-decoration: none;
-    color: inherit;
-}
-#menu-links a:hover {
-    border-bottom: 1px solid #252525;
-}
-.active {
-    border-bottom: 1px solid #252525;
 }
