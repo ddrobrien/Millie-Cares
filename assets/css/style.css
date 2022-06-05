@@ -5,3 +5,60 @@ body {
     font-weight: 300;
     color: #233d4d;
 }
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: #619b8a;
+}
+
+/* navigation links */
+
+#menu-links {
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+#menu-links li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+#menu-links a {
+    text-decoration: none;
+}
+#menu-links a:hover {
+    border-left: 2px solid #a50104;
+}
+.active {
+    border-bottom: 1px solid #a50104;
+}
+
+/* image */
+
+img {
+    max-height: 20%;
+    max-width: 100%;
+}
+#image {
+    padding: 10;
+border-top: 10px;
+border-left: 50px;
+border-right: 10px;
+border-bottom: 10px;
+}
+
+/* club benefits */
+
+#club-benefits {
+    border-top: 10px;
+}
+#text-left {
+    padding-top: 33%;
+    width: 33%;
+    float: left;
+}
+#text-right {
+    padding-top: 33%;
+    width: 33%;
+    float: right;
+}
