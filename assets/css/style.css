@@ -35,7 +35,7 @@ hr {
     border-left: 2px solid #a50104;
 }
 .active {
-    border-top: 10px solid #a50104;
+    border-top: 1px solid #a50104;
 }
 
 /* image */
@@ -128,8 +128,124 @@ footer {
     display: inline;
 }
 .social-links i {
-    font-size: 80px;
+    font-size: 50px;
     margin: 1%;
     padding: 5%;
     color: #a50104;
+}
+
+/* for screens large to mediumm from 1200px wide and down */
+
+@media screen and (max-width:1200px) {
+    
+#club-benefits {
+    width: 65%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.text-left, .text-right {
+    width: 100%;
+    float: left;
+    padding: 0%;
+}
+#activities {
+    clear: both;
+    width: 100%;
+    float: center;
+    padding: 0;
+    text-align: center;
+}
+#opening-times {
+    width: 100%;
+    clear: both;
+    height: 170px;
+    padding: 0%;
+    text-align: center;
+}
+hr {
+    display: none;
+}
+}
+
+/* for media screens from 950px wide and down */
+@media screen and (max-width:950px) {
+    #menu-links {
+        clear: left;
+        float: center;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    #club-benefits {
+        width: 90%;
+        height: 100px;
+        margin: 0;
+        text-align: center;
+        border-left: 40%;
+    }
+    #activities {
+        width: 100%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    #activities ul {
+        text-align: center;
+    }
+    #opening-times {
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        padding-top: 2%;
+    }
+    #opening-times ul {
+        text-align: center;
+    }
+    
+}
+
+/* for screens 500px and down */
+
+@media screen and (max-width:500px) {
+    #header {
+        font-size-adjust: auto;
+    }
+
+    #menu-links {
+        width: auto;
+        font-size: smaller;
+        float: left;
+    }
+    #menu-links li {
+        float: left;
+    }
+    .active {
+        border-bottom: 1px solid #a50104;
+    }
+    #club-benefits h3 {
+        font-size: small;
+    }
+    #activities {
+        font-size: small;
+        height: 200px;
+    }
+    #opening-times {
+        font-size: small;
+        height: 200px;
+    }
+    #location {
+        width: 60%;
+        height: 250px;
+    }
+    .map {
+        float: left;
+        margin: 0 auto;
+    }
+    #footer {
+        height: 60px;
+        border: none;
+    }
+    .social-links i {
+        font-size: 30px;
+    }
 }
