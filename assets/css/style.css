@@ -41,7 +41,7 @@ img {
 }
 #image {
     padding: 10;
-border-top: 10px;
+border-top: 50px;
 border-left: 50px;
 border-right: 10px;
 border-bottom: 10px;
@@ -51,6 +51,8 @@ border-bottom: 10px;
 
 #club-benefits {
     border-top: 10px;
+    border-bottom: 50px;
+    height: 500px;
 }
 h3 {
     text-align: center;
@@ -68,11 +70,38 @@ h3 {
 
 /* activities */
 
-#activites {
-    height: 600px;
+#activities {
+    height: 300px;
+    display: center;
+    padding-left: 40%;
+    margin-bottom: 5%;
+    font-size: 20px;
 }
 
-.activites li {
-    text-align: center;
-    border-top: 10px;
+#opening-times {
+    height: 200px;
+    display: center;
+    padding-left: 40%;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+h4 {
+    font-family: montserrat, sans-serif;
+    font-size: 20px;
+    margin-bottom: auto;
+}
+
+#location {
+    font-family: roboto, sans-serif;
+    height: 600px;
+    display: center;
+    padding-left: 40%;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+#location h3 {
+    font-family: montserrat, sans-serif;
+    font-size: 20px;
+    margin-bottom: auto;
 }
