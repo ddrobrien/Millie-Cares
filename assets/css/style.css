@@ -9,7 +9,9 @@ body {
 h1 {
     text-align: center;
     font-size: 50px;
+    font-weight: 700;
     background-color: #619b8a;
+    color: #a50104;
 }
 
 hr {
@@ -27,6 +29,7 @@ hr {
     list-style-type: none;
     margin-right: 30px;
     border-bottom: 20px;
+    color: #233d4d;
 }
 #menu-links a {
     text-decoration: none;
@@ -242,10 +245,10 @@ hr {
         margin: 0 auto;
     }
     #footer {
-        height: 60px;
+        height: 40px;
         border: none;
     }
     .social-links i {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
