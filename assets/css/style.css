@@ -48,7 +48,7 @@ img {
     max-width: 100%;
 }
 #image {
-    padding: 30;
+    padding: 30px;
 border-top: 50px;
 border-left: 50px;
 border-right: 10px;
@@ -80,7 +80,6 @@ h3 {
 
 #activities {
     height: 280px;
-    display: center;
     padding-left: 40%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -90,7 +89,6 @@ h3 {
 
 #opening-times {
     height: 180px;
-    display: center;
     padding-left: 40%;
     font-size: 20px;
     margin-bottom: 5%;
@@ -105,7 +103,6 @@ h4 {
 #location {
     font-family: roboto, sans-serif;
     height: 600px;
-    display: center;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 40%;
@@ -155,7 +152,6 @@ footer {
 #activities {
     clear: both;
     width: 100%;
-    float: center;
     padding: 0;
     text-align: center;
 }
@@ -175,7 +171,6 @@ hr {
 @media screen and (max-width:950px) {
     #menu-links {
         clear: left;
-        float: center;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
@@ -185,7 +180,7 @@ hr {
         height: 100px;
         margin: 0;
         text-align: center;
-        border-left: 40%;
+        border-left: 40px;
     }
     #activities {
         width: 100%;
@@ -211,7 +206,7 @@ hr {
 
 @media screen and (max-width:500px) {
     #header {
-        font-size-adjust: auto;
+        font-size-adjust: inherit;
     }
 
     #menu-links {
@@ -245,10 +240,11 @@ hr {
         margin: 0 auto;
     }
     #footer {
-        height: 40px;
+        height: 20px;
         border: none;
     }
     .social-links i {
+        height: 20px;
         font-size: 20px;
     }
 }
