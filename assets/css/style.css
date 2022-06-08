@@ -161,13 +161,14 @@ font-size: 20px;
 #form {
     height: 900px;
     clear: left;
+    background-color: #fcba04;
 }
 .signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
+    margin: 100px 20%;
+    color: #fafafa;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
-    position: absolute;
+    position: inherit;
     left: 10%;
     padding: 30px;
 }
