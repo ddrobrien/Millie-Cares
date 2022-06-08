@@ -86,7 +86,6 @@ x.className = "topnav";
   
 /* image */
 img {
-max-height: 20%;
 max-width: 100%;
 }
 #image {
@@ -176,6 +175,18 @@ padding: 5%;
 color: #a50104;
 }
 
+/* gallery */
+#images {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+    background-color: #233d4d;
+}
+#photos > img {
+    width: 100%;
+}
+
 /* for screens large to mediumm from 1200px wide and down */
 @media screen and (max-width:1200px) {    
 #club-benefits {
@@ -245,7 +256,6 @@ text-align: center;
 #header {
 font-size-adjust: inherit;
     }
-
 #menu-links {
 width: auto;
 font-size: smaller;
@@ -284,4 +294,7 @@ width: 100%;
 height: 20px;
 font-size: 20px;
     }
+.images {
+    column-count: 2;
+}    
 }
