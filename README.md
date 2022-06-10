@@ -1,108 +1,117 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Millie Cares Play Zone
 
-Welcome David O'Brien,
+This is Mille Cares Playzone. My dog Millie has spent many years being looked after by a family between Monday-Friday whilst we work. She has always enjoyed being around other people, including children, as well as other dogs. When she comes back in the evening, you can tell she is happy, well looked after and always tired after a long day of play and stimulation.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is where the idea for Mille Cares Playzone comes from. A business that caters for dogs, providing them with fun activities and interactions with other dogs away from their famililies for small periods of time. People can leave their dogs at Millie Cares PlayZone whilst they go to work, and not have to worry about if their dog is lonely, or needs to go out or go to the toilet if left alone. Other bonuses with using a doggy day care service is it promotes better behaviour in dogs, as they are constanlty mixing with other dogs and people, and gain improved social and behavioural skills.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+People can use the webpage Millie Cares Playzone to find important information such as location, opening times and access to social media profiles of what happens at the Playzone. Users will also be able to navigate away from the Home page, to a gallery of fun pictures, and then a sign up page to leave their details for further enquiries, or joing the newsletter list. 
 
-## Gitpod Reminders
+The project was created using HTML and CSS and JavaScript. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+![Mille Cares Playzone](assets/images/multi-screen.jpg)
 
-A blue button should appear to click: _Make Public_,
+---
+## Features
 
-Another blue button should appear to click: _Open Browser_.
+* **Title**
+The Millie Cares Playzone title is styled using Roboto font in a red and is position to the center with a light green background color. The title (header) is positioned and styled the same way across all 3 pages.
+The footer is styled with the same green background color and red font color as the header. There is no font using on the header, this has been styled to use social network link images. This footer is also used across all pages for maintain consistency and familiarty for the user. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* **Navigation**
+The navigation menu is located at the top of the page underneath the header to the left of the screen. This is the only part of the design that I have used JavaScript for. The navigation menu has 3 pages to navigate to:
+* 'Home' which is where the important information is located, that a user will want to see first as a priority.
+* 'Gallery' which shows multiple high quality images of dogs undergoing various different activities.
+* 'Sign Up' this allows users to add submit their details to make further enquiries or sig up to the newsletter. 
+The navigation menu is styled, so that on smaller screens (such as mobile phones) the menu options disappear into a menu bar that can be pressed and a drop down of the navigational links can be made available. 
 
-A blue button should appear to click: _Make Public_,
+* **Footer**
+The footer contains social media links styled with images of the major social media companies, and styled in the same manor as the header.
+If a user clicks on one of the social media icons a new webpage will open and be linked to the homepage of the corresponding social media platform. 
 
-Another blue button should appear to click: _Open Browser_.
+* **Color Scheme**
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Color Palette](assets/images/Color%20Palette.jpg)
 
-To log into the Heroku toolbelt CLI:
+---
+* **Header**
+The header contains a simple title, and also consists of the navigation menu and an image of dogs playing and their carers in the background. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Header image](assets/images/Screenshot%20Homepage.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* **Information (mid-page) Section**
+The activities section contains important information as to the benefits of using a Doggy Day Care centre, and also contains priority information regarding a summary of activities dogs will get up to, times the centre will be open and the location of the centre. 
 
-------
+![activities section](assets/images/Screenshot%20Benefits.png)
 
-## Release History
+![Opening times section](assets/images/Screenshot%20Opening%20times.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![location section](assets/images/Screenshot%20Location.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+---
+* **Gallery Page**
+The Gallery Page when navigated to shows images of dogs playing and having fun. Living their best life. Millie, who this page is named after, also makes an appearance in the gallery page. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Gallery image](assets/images/Screenshot%20Gallery.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+* **Sign Up Page**
+The Sign Up page is where users can navigate to to leave their details to make further enquires or sign up to the newsletter. The code is written so that users must leave the correct details in order to correctly submit their details. This page was kept very simple so that all focus would be on the sign up document. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Sign Up image](assets/images/Screenshot%20Sign%20Up.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+---
+* **Testing**
+* This webpage has been tested, and works on different explorers such as Chrome, and FireFox.
+* This project is responsive and has been designed to work on larger screens as well as small screens, using dev tools it has been tested on iphone screens, ipad screens, as well as other tablets. 
+* All text is written and easy to understand
+* All images have been selected for the highest possible defintion with bold colors that pop off the screen. 
+* The form works, and requires correct information, complete in order for the user to submit their information. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Validator testing
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+*html
+All code and pages have been checked through the W3C Markup Validation Service. The only error that came back was for a section element in the gallery page, the checker expected to see a heading refernce. But as this was to include an id tag, and not a heading, I am happy that this is a mistake on the vaildation service. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+*css
+All css code has been run through the W3C CSS Validation Service and has been passed with no errors found. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* **Bugs**
+All bugs for the webpage have been fixed. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* **Bug Fixes**
+* on the home page there was an issue with loading an interactive google map using iframe, after invesigation I found out that this required JavaScript, and I didn't know how to perform this, so this was removed and an image placed instead.
+* in the gallery page there were issues with the images plqacing together, after using dev tools I found the issue and made the correct fix. 
+* on the sign up page there was an issue with the form once submitted going to a "cannot load" page, after reading through the code, there was a charatcer mistake. Once changed it worked fine. 
+* the navigation menu when on smaller screens wouldn't allow the menu top be opened to show the menu options. After reading throught the process, I found the issue to the javaScript was in the wrong code, once moved it worked fine. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+---
+## Launch and Deployment
+* In the GitHub repository, navigate to the Settings tab.  
+* Scroll down to the GitHub Pages section and click the 'Check it out here!' link.  
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+* The project has been created using gitpod and deployed using GitHub, the link for the live page is (https://ddrobrien.github.io/Millie-Cares/)
 
 ---
 
-Happy coding!
+## Future Features
+
+* This page can have video added of dogs playing together
+* A layout of the center as well as a virtual tour
+* An FAQ sheet
+---
+
+## Credits
+
+### Content
+* The layout of the webpage came from inspiration of the CI [Love Running Project](https://ddrobrien.github.io/Love-Running/)
+* Inspiration for both the gallery and sign up came from the CI [Love Running Project](https://ddrobrien.github.io/Love-Running/)
+* The code for the navigation menu came from [W3 Schools](https://www.w3schools.com/howto/howto_js_bottom_nav_responsive.asp)
+* The font came from [google font](https://fonts.google.com/)
+* Images inspiration came from [unsplash.com](https://unsplash.com/s/photos/dogs-playing)
+* Color palette inspiration came from [coolers.co](https://coolors.co/)
+* html validation came from [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
+* css validation came from [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+icons inspiration came from [Love Runnning Project] but sourced from [Font Awesome](https://fontawesome.com/)
+* Paragraph text was written by myself
