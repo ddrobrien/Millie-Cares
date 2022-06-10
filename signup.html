@@ -20,9 +20,19 @@
             <i class="fa fa-bars"></i>
             </a>
         </div>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
     </header>
     <section class="form">
-        <form class="signup-form" method="POST" action="https://formdump.codeinstitue.net/">
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net">
         <h2>Let's get your dog in the Play Zone!</h2>
         <label for="fname">First Name</label>
         <input id="fname" class="text-input" type="text" name="first_name" required>
