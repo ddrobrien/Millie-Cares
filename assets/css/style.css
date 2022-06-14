@@ -87,9 +87,10 @@ border-right: 10px;
 border-bottom: 10px;
 }
 .location-image {
-width: 60%;
+width: 50%;
 float: inherit;
 text-align: center;
+padding-left: 40px;
 }
 
 /* club benefits */
@@ -137,8 +138,8 @@ font-family: roboto, sans-serif;
 font-weight: bold;
 padding-top: 1%;
 padding-bottom: 1%;
-padding-left: 20%;
 font-size: 20px;
+text-align: center;
 background-color: #fcba04;
 }
 #location h3 {
