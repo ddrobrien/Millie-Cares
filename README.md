@@ -69,6 +69,18 @@ The Sign Up page is where users can navigate to to leave their details to make f
 * All images have been selected for the highest possible defintion with bold colors that pop off the screen. 
 * The form works, and requires correct information, complete in order for the user to submit their information. 
 
+### Testing of Home page
+
+![Testing image](assets/images/Screenshot%20testing.jpg)
+
+### Testing of Gallery page
+
+![Gallery testing](assets/images/Screenshot%20gallery%20page.jpg)
+
+### Testing of Sign Up page
+
+![Sign Up testing](/assets/images/Screenshot%20sign%20up%20testing.jpg)
+
 ## Validator testing
 
 *html

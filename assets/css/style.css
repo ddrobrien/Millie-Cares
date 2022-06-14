@@ -78,9 +78,9 @@ text-align: left;
 /* image */
 img {
 max-width: 100%;
-}
+    }
 #image {
-padding: 30px;
+width: 100%;
 border-top: 50px;
 border-left: 50px;
 border-right: 10px;
@@ -247,6 +247,9 @@ clear: both;
 height: 170px;
 padding: 0%;
 text-align: center;
+}
+#image {
+width: 100%;
 }
 hr {
 display: none;
